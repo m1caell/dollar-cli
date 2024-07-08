@@ -1,0 +1,18 @@
+{
+  "name": "dollar-cli",
+  "version": "0.1.0",
+  "description": "A simple command line to check dollar value getting value from website Dólar Hoje",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index",
+    "test": "node test"
+  },
+  "keywords": ["dollar", "money", "brl"],
+  "author": "Pablo Trindade",
+  "license": "ISC",
+  "devDependencies": {
+    "@biomejs/biome": "1.8.3",
+    "nock": "13.5.4"
+  }
+}
