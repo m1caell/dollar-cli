@@ -34,7 +34,7 @@ describe('Test Application', () => {
         console.log = originalConsoleLog;
     });
 
-    test('Should get value 5,45 from website', async () => {
+    test('Should get value 5,45 from website request', async () => {
         nock(WEBSITE)
             .get('/')
             .reply(200, partialMockBody)

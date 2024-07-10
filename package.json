@@ -5,10 +5,14 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node index",
-    "test": "node test"
+    "start": "node src/index",
+    "test": "node src/test"
   },
-  "keywords": ["dollar", "money", "brl"],
+  "keywords": [
+    "dollar",
+    "money",
+    "brl"
+  ],
   "author": "Pablo Trindade",
   "license": "ISC",
   "devDependencies": {
